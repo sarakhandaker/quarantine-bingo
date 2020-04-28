@@ -1,0 +1,37 @@
+# This file should contain all the record creation needed to seed the database with its default values.
+# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
+#
+# Examples:
+#
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
+
+sq1 = BingoSquare.create(quote: "Haven't Change My Outfit In 5 Days")
+sq2 = BingoSquare.create(quote: "Almost Touched My Face")
+sq3 = BingoSquare.create(quote: "Scared to touch doorknobs")
+sq4 = BingoSquare.create(quote: "Not Social Distancing")
+sq5 = BingoSquare.create(quote: "Eating 2 pints of ice cream a day")
+sq6 = BingoSquare.create(quote: "Swimming in Toilet Paper")
+sq7 = BingoSquare.create(quote: "Stopped Reading the news")
+sq8 = BingoSquare.create(quote: "Face Masks. And Spa.")
+sq9 = BingoSquare.create(quote: "ZOOM. ZOOM. ZOOM")
+sq24 = BingoSquare.create(quote: "Played Animal Crossing")
+sq10=BingoSquare.create(quote:"Enjoying Social Distancing")
+sq11=BingoSquare.create(quote:"Made Dalgona Coffee")
+sq12=BingoSquare.create(quote:"Ordered food to be Delivered Home")
+sq13=BingoSquare.create(quote:"Believe the Theories About CoronoVirus")
+sq14=BingoSquare.create(quote:"Woke up After 2pm")
+sq15=BingoSquare.create(quote:"Checked Your Temperature")
+sq16=BingoSquare.create(quote:"Read a Book")
+sq17=BingoSquare.create(quote:"Washed You Hands in Under 20 sec")
+sq18=BingoSquare.create(quote:"Painted or Drew Something")
+sq19=BingoSquare.create(quote:"Baked Something")
+sq20=BingoSquare.create(quote:"Did Some Online Shopping")
+sq21=BingoSquare.create(quote:"Did an Online Class")
+sq22=BingoSquare.create(quote:"Started a New Show")
+sq23=BingoSquare.create(quote:"Checked Your Temperature")
+sq26 = BingoSquare.create(quote: "Cleaned the Entire House")
+sq27=BingoSquare.create(quote:"Went for a Walk")
+sq28=BingoSquare.create(quote:"Cut Your Own Hair")
+sq29=BingoSquare.create(quote:"Downloaded TikTok")
+sq30 = BingoSquare.create(quote: "Worked from Home")
