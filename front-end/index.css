@@ -1,20 +1,22 @@
 #bingo_board {
-    width: 100%;
     display: grid;
- 
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     grid-template-columns: 130px 130px 130px 130px 130px;
     grid-template-rows: 130px 130px 130px 130px 130px;
 }
 .square {
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(184, 224, 175, 0.5);
     cursor: pointer;
-  border: 3px solid darkgreen;
+  border: 2px solid black;
   padding: 20px;
 }
 
-#bingo_board div:hover { text-shadow: 0 0 1px rgba(0,0,0,0.5); }
+#bingo_board div:hover { text-shadow: 0 0 0.5px rgba(0,0,0,0.5); }
 
 .clicked {
     border: 3px solid red;
@@ -24,7 +26,10 @@
 .headers > div { float: left; width: 500/5; text-align: center; }
 .headers > div span { font-size: 42px; color: black; font-weight: bold; }
 
-.x {
+.X {
     position: absolute;
-    color: red;
+    font-size: 50px;
+    z-index: 100;
+    left: 45px;
+    top: 35px;
 }
